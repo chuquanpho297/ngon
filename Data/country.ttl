@@ -1,0 +1,1310 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rs:  <http://www.w3.org/2001/sw/DataAccess/tests/result-set#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[ rdf:type           rs:ResultSet ;
+  rs:resultVariable  "population" , "countryLabel" ;
+  rs:size            "186"^^xsd:int ;
+  rs:solution        [ rs:binding  [ rs:value     "4420184"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Mauritania"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "24053727"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Cameroon"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "40533330"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Sudan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "33570609"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Uzbekistan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "19458000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Chile"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "270625568"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Indonesia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "11051600"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Bolivia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "9265067"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Honduras"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5260750"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Republic of the Congo"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "55345"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Saint Kitts and Nevis"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "32447385"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Malaysia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "25570895"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Madagascar"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "20488000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Burkina Faso"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "10760421"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Greece"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "11530580"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Burundi"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "124777324"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Mexico"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "6811297"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Paraguay"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "17100715"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Kingdom of the Netherlands"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "11175692"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Benin"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "112309"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Aruba"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "6678567"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Libya"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "15850567"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Senegal"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "32866270"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Angola"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "10981229"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Haiti"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "18541980"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Mali"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "465292"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Malta"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "10403761"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Dominican Republic"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "196440"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Samoa"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "57310019"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Tanzania"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5112300"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "New Zealand"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "60317000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Italy"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "9255524"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Belarus"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "10409248"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Sweden"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "15477751"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Chad"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "10516707"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Czech Republic"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "3456750"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Uruguay"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "29381884"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Peru"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "395361"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "The Bahamas"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "1909000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Latvia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "2639211"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Qatar"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "16624858"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Ecuador"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "622359"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Montenegro"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "7797694"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Togo"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "4905769"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Costa Rica"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "25490965"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "North Korea"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "53370609"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Myanmar"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "4829480"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Oman"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5449270"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Slovakia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "83614362"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Turkey"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "59622350"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "South Africa"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "6858160"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Laos"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "11192"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Tuvalu"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "8466017"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Switzerland"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "213317639"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Brazil"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "12717176"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Guinea"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "2708339"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Galicia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "53127"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Marshall Islands"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "8921343"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Tajikistan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "105544"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Federated States of Micronesia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "67063703"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "France"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "10428241"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Jordan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "17263239"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Guatemala"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "95843"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Seychelles"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "28515829"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Venezuela"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5213362"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Costa Rica"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "21477348"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Niger"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "1612"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Niue"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5214030"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Liberia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "28250420"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Yemen"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "42862958"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Uganda"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "51466201"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "South Korea"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "1331796"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Estonia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "49065615"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Colombia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "555988"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Cape Verde"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "29668834"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Mozambique"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "146600"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Republic of Artsakh"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "6100075"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Lebanon"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "37132"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Sint Maarten"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "276244"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Vanuatu"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "47327407"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Argentina"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "7739758"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Catalonia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "9187000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Israel"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "3113000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Wales"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "21729"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Palau"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "18622104"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Malawi"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "95425"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Antigua and Barbuda"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "3497000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Eritrea"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "331449281"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "United States of America"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "10347892"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Portugal"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "13650"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Nauru"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "119438"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Kiribati"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "4761865"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Republic of Ireland"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "1369125"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Trinidad and Tobago"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "30327877"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Nepal"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "2233339"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Lesotho"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "37922"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Liechtenstein"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5866139"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Singapore"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "4105493"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Croatia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "211400708"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Nigeria"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "24294750"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Ivory Coast"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5780000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Somaliland"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "94660000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Vietnam"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "12208407"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Rwanda"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "36029138"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Morocco"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "1443497378"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "People's Republic of China"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "78151"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Andorra"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "2890299"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Jamaica"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "2291661"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Botswana"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "17282163"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Netherlands"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "9890400"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "United Arab Emirates"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "7000039"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Bulgaria"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "16005373"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Cambodia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "165775000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Bangladesh"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "24511800"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Australia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "36991981"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Canada"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "216565318"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Pakistan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "2793592"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Albania"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "109897"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Saint Vincent and the Grenadines"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "6420746"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "El Salvador"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "2213889"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "The Gambia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "65931550"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Thailand"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "7557212"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Sierra Leone"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "107825"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Grenada"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "956985"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Djibouti"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "66022273"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "United Kingdom"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "43900000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Algeria"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "11181595"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Cuba"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "9769526"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Hungary"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "23593794"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Taiwan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "79966230"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Iran"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "38274618"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Iraq"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5516224"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Finland"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "204327"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "São Tomé and Príncipe"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "55144"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Northern Mariana Islands"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "178844"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Saint Lucia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "16529904"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Zimbabwe"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "777859"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Guyana"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "469000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Transnistria"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "6201500"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Kyrgyzstan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5827463"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Denmark"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "902348"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Comoros"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "83149300"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Germany"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "1296311"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "East Timor"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "11031386"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Somalia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5425270"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Norway"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "37466414"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Afghanistan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "357050"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Iceland"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "38382576"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Poland"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "109035343"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Philippines"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "19586539"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Romania"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "2066880"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Slovenia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "8979894"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Austria"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "17094130"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Zambia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "428697"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Brunei"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "4659080"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Central African Republic"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "807610"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Bhutan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "49710"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "American Samoa"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "611343"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Solomon Islands"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "2533794"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Namibia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "125961625"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Japan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "18499181"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Syria"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "8935000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Papua New Guinea"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "1326093247"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "India"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "3075647"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Mongolia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "21444000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Sri Lanka"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "73925"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Dominica"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "12575714"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "South Sudan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "905502"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Fiji"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "1861283"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Guinea-Bissau"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5850901"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Turkmenistan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "26908262"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Ghana"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "1492584"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Bahrain"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "33000000"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Saudi Arabia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "2790842"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Lithuania"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "17434"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Cook Islands"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5930987"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Kingdom of Denmark"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "5142098"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Nicaragua"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "436330"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Maldives"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "104957438"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Ethiopia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "11565204"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Tunisia"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "94798827"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Egypt"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "1141166"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Cyprus"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "1883018"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Kosovo"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "18276500"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Kazakhstan"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "86790567"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Democratic Republic of the Congo"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "48468138"^^xsd:decimal ;
+                                     rs:variable  "population"
+                                   ] ;
+                       rs:binding  [ rs:value     "Kenya"@en ;
+                                     rs:variable  "countryLabel"
+                                   ]
+                     ]
+] .

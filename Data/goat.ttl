@@ -1,0 +1,57 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rs:  <http://www.w3.org/2001/sw/DataAccess/tests/result-set#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[ rdf:type           rs:ResultSet ;
+  rs:resultVariable  "itemLabel" , "item" ;
+  rs:size            "7"^^xsd:int ;
+  rs:solution        [ rs:binding  [ rs:value     "His Whiskers"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q23003932> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "William Windsor"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q3569037> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Lance Corporal Shenkin II"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q41240892> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Billygoat Hennes"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q151345> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Lance Corporal Shenkin I"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q41241416> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Taffy"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q24287064> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Lance Corporal Shenkin III"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q41239734> ;
+                                     rs:variable  "item"
+                                   ]
+                     ]
+] .

@@ -7,7 +7,8 @@ import java.io.StringWriter;
 import java.util.concurrent.TimeUnit;
 
 import com.example.oopmain.constant.DirConstant;
-import com.example.oopmain.helper.Utility;
+import com.example.oopmain.util.QueryUtility;
+import com.example.oopmain.util.ShowUtility;
 import org.apache.jena.query.ParameterizedSparqlString;
 import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
@@ -21,11 +22,11 @@ import org.apache.jena.sparql.resultset.ResultsFormat;
 
 public class RDFHandler {
 	public static String QueryAndSave(String querySelect, String fileName,String queryAdd,String formatFile) {
-		ResultsFormat format = Utility.checkFormat(formatFile);
-		String sparqlUrl = Utility.checkQueryAdd(queryAdd);
-		String fileExtend = Utility.checkFileExtend(formatFile);
+		ResultsFormat format = QueryUtility.checkFormat(formatFile);
+		String sparqlUrl = QueryUtility.checkQueryAdd(queryAdd);
+		String fileExtend = QueryUtility.checkFileExtend(formatFile);
 		ParameterizedSparqlString queryStr = new ParameterizedSparqlString();
-		Utility.setNsPrefix(queryStr);
+		QueryUtility.setNsPrefix(queryStr);
 		queryStr.append(querySelect);
 		Query query = queryStr.asQuery();
 		try (QueryExecution qexec = QueryExecutionFactory.sparqlService(sparqlUrl, query)) {
@@ -46,33 +47,13 @@ public class RDFHandler {
 		}
 	}
 
-	public static String LoadFile(String fileName,String format) {
-
+	public static String LoadFile(String topic) {
+		String fileName = ShowUtility.getFileName(topic);
 		String fileDir = DirConstant.curDir + "\\" + "Data" + "\\" + fileName + ".ttl";
 		Model model = RDFDataMgr.loadModel(fileDir);
 		StringWriter out = new StringWriter();
 		model.write(out,"Turtle");
 		String result = out.toString();
 		return result;
-//		System.out.println(model);
-//		StmtIterator iter = model.listStatements();
-//		while (iter.hasNext()) {
-//			Statement stmt = iter.nextStatement(); // get next statement
-//			Resource subject = stmt.getSubject(); // get the subject
-//			Property predicate = stmt.getPredicate(); // get the predicate
-//			RDFNode object = stmt.getObject(); // get the object
-//
-//			System.out.print(subject.toString());
-//			System.out.print(" " + predicate.toString() + " ");
-//			if (object instanceof Resource) {
-//				System.out.print(object.toString());
-//			} else {
-//				// object is a literal
-//				System.out.print(" \"" + object.toString() + "\"");
-//			}
-//
-//			System.out.println(" .");
-//		}
-
 	}
 }

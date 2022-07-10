@@ -6,26 +6,22 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-            prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18"
-            xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.example.oopmain.controller.QueryController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopmain.controller.QueryController">
    <bottom>
-      <Label fx:id="labelQuery" alignment="TOP_LEFT" prefHeight="17.0" prefWidth="77.0" text="Query Alert" textAlignment="RIGHT" BorderPane.alignment="CENTER" />
+      <Label fx:id="labelQuery" alignment="CENTER" prefHeight="17.0" prefWidth="586.0" text="Query Alert" textAlignment="JUSTIFY" BorderPane.alignment="CENTER" />
    </bottom>
    <left>
       <VBox alignment="CENTER" prefHeight="358.0" prefWidth="199.0" spacing="5.0" BorderPane.alignment="CENTER">
          <children>
             <Label text="Query link" />
-            <ChoiceBox fx:id="checkBoxQuery" prefWidth="150.0" />
+            <ChoiceBox fx:id="choiceBoxQuery" prefWidth="150.0" />
             <Label layoutX="10.0" layoutY="10.0" text="Format file" />
-            <ChoiceBox fx:id="checkBoxFormatFile" layoutX="10.0" layoutY="27.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="choiceBoxFormatFile" layoutX="10.0" layoutY="27.0" prefWidth="150.0" />
             <Label layoutX="81.0" layoutY="192.0" text="File Name" />
             <TextField fx:id="textFieldFileName">
                <VBox.margin>
@@ -44,19 +40,6 @@
          </BorderPane.margin>
       </VBox>
    </left>
-   <center>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-         <children>
-            <TextArea fx:id="textAreaQuery" layoutX="26.0" layoutY="53.0" prefHeight="256.0" prefWidth="359.0" wrapText="true" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="26.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="53.0" />
-            <Label layoutX="120.0" layoutY="14.0" text="Input sparql query">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Label>
-            <Button layoutX="175.0" layoutY="324.0" mnemonicParsing="false" onAction="#SubmitQuery" text="Query" />
-         </children>
-      </AnchorPane>
-   </center>
    <top>
       <HBox alignment="CENTER" spacing="10.0" BorderPane.alignment="CENTER">
          <children>
@@ -67,4 +50,28 @@
          </BorderPane.margin>
       </HBox>
    </top>
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <Label text="Input sparql query" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <TextArea fx:id="textAreaQuery" prefHeight="293.0" prefWidth="351.0" wrapText="true" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextArea>
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#SubmitQuery" text="Query" BorderPane.alignment="CENTER" />
+         </bottom>
+         <BorderPane.margin>
+            <Insets right="10.0" />
+         </BorderPane.margin>
+      </BorderPane>
+   </center>
 </BorderPane>

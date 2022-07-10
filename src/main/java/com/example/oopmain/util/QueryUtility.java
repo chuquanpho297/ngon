@@ -1,4 +1,4 @@
-package com.example.oopmain.helper;
+package com.example.oopmain.util;
 
 import com.example.oopmain.constant.PrefixConstant;
 import com.example.oopmain.constant.QueryUrlConstant;
@@ -6,7 +6,7 @@ import org.apache.jena.query.ParameterizedSparqlString;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.sparql.resultset.ResultsFormat;
 
-public class Utility {
+public class QueryUtility {
 	public static void setNsPrefix(ParameterizedSparqlString queryStr) {
 		queryStr.setNsPrefix("wikibase", PrefixConstant.wikibase);
 		queryStr.setNsPrefix("bd", PrefixConstant.bd);
@@ -20,6 +20,8 @@ public class Utility {
 		queryStr.setNsPrefix("xsd", PrefixConstant.xsd);
 		queryStr.setNsPrefix("foaf", PrefixConstant.foaf);
 		queryStr.setNsPrefix("rs", PrefixConstant.rs);
+		queryStr.setNsPrefix("pq",PrefixConstant.pq);
+		queryStr.setNsPrefix("p",PrefixConstant.p);
 	}
 	public static void setNsPrefix(Model model) {
 		model.setNsPrefix("wikibase", PrefixConstant.wikibase);
@@ -34,6 +36,8 @@ public class Utility {
 		model.setNsPrefix("xsd", PrefixConstant.xsd);
 		model.setNsPrefix("foaf", PrefixConstant.foaf);
 		model.setNsPrefix("rs", PrefixConstant.rs);
+		model.setNsPrefix("pq",PrefixConstant.pq);
+		model.setNsPrefix("ps",PrefixConstant.ps);
 	}
 
 	public static ResultsFormat checkFormat(String format){
@@ -70,7 +74,7 @@ public class Utility {
 			case "Turtle" -> ".ttl";
 			case "N-Triples" -> ".nt";
 			case "RDF/XML" -> ".rdf";
-			case "JSON-LD" -> ".jsonld";
+			case "JSON" -> ".json";
 			default -> ".txt";
 		};
 		System.out.println(fileExtend);
