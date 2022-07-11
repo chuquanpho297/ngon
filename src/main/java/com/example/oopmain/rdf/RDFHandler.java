@@ -16,6 +16,7 @@ import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.query.ResultSetFormatter;
 import org.apache.jena.rdf.model.Model;
+import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.sparql.resultset.ResultsFormat;
 
@@ -47,13 +48,16 @@ public class RDFHandler {
 		}
 	}
 
-	public static String LoadFile(String topic) {
+	public static String LoadFile(String topic,String format) {
+		Lang formatFile = ShowUtility.getFormatFile(format);
 		String fileName = ShowUtility.getFileName(topic);
 		String fileDir = DirConstant.curDir + "\\" + "Data" + "\\" + fileName + ".ttl";
 		Model model = RDFDataMgr.loadModel(fileDir);
 		StringWriter out = new StringWriter();
-		model.write(out,"Turtle");
+//		model.write(out,formatFile);
+		RDFDataMgr.write(out,model,formatFile);
 		String result = out.toString();
 		return result;
+
 	}
 }

@@ -1,6 +1,8 @@
 package com.example.oopmain.controller;
 
 import com.example.oopmain.HelloApplication;
+import com.example.oopmain.constant.FormatFileConstant;
+import com.example.oopmain.constant.FormatOutputConstant;
 import com.example.oopmain.constant.NameOutputDataConstant;
 import com.example.oopmain.rdf.RDFHandler;
 import javafx.event.ActionEvent;
@@ -25,9 +27,12 @@ public class ShowController implements Initializable {
 
     @FXML
     private ChoiceBox<String> choiceBoxTopics;
+    @FXML
+    private ChoiceBox<String> choiceBoxFormats;
 
     private static String topic;
 
+    private static String format;
 
     public void ChangeQueryButton(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(HelloApplication.class.getResource("Query.fxml"));
@@ -42,14 +47,19 @@ public class ShowController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         choiceBoxTopics.getItems().addAll(NameOutputDataConstant.namesAndTopics.keySet());
         choiceBoxTopics.setOnAction(this::getTopic);
+        choiceBoxFormats.getItems().addAll(FormatOutputConstant.formats);
+        choiceBoxFormats.setOnAction(this::getFormat);
     }
 
     private void getTopic(ActionEvent event) {
          topic = choiceBoxTopics.getValue();
     }
+    private void getFormat(ActionEvent event) {
+        format = choiceBoxFormats.getValue();
+    }
 
     public void showFile(){
-        textAreaOutputQuery.setText(RDFHandler.LoadFile(topic));
+        textAreaOutputQuery.setText(RDFHandler.LoadFile(topic,format));
     }
 
 //    public void

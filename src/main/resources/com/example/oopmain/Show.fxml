@@ -42,6 +42,12 @@
                <VBox.margin>
                   <Insets bottom="10.0" />
                </VBox.margin></ChoiceBox>
+            <Label layoutX="41.0" layoutY="136.0" prefHeight="17.0" prefWidth="47.0" text="Format" />
+            <ChoiceBox fx:id="choiceBoxFormats" layoutX="20.0" layoutY="158.0" prefWidth="150.0">
+               <opaqueInsets>
+                  <Insets bottom="10.0" />
+               </opaqueInsets>
+            </ChoiceBox>
             <Button mnemonicParsing="false" onAction="#showFile" text="Show" />
          </children>
          <opaqueInsets>
