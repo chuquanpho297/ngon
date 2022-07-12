@@ -1,16 +1,16 @@
-package com.example.oopmain.modelquery.people;
+package com.example.oopmain.modelquery.People;
 
 
 import com.example.oopmain.util.SparqlUtil;
 
 public class Engineer extends People {
-	private String education;
-	private String nationality;
+	private String EDUCATION;
+	private String NATIONALITY;
 
 	public Engineer() {
 	  super();
-	  this.education = "?data dbo:education ?education.";
-	  this.nationality = "?data dbo:nationality ?nationality.";
+	  this.EDUCATION = "?data dbo:education ?education.";
+	  this.NATIONALITY = "?data dbo:nationality ?nationality.";
 	  this.dataSource = "?data dct:subject dbc:Vietnamese_engineers.";
 	}
 
@@ -19,11 +19,11 @@ public class Engineer extends People {
 	}
 
 	public String getEducation() {
-		return education;
+		return EDUCATION;
 	}
 
 	public String getNationality() {
-		return nationality;
+		return NATIONALITY;
 	}
 
 	protected String createConstruct() {

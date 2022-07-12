@@ -47,7 +47,7 @@ public class QueryUtility {
 			case "Turtle" -> resultsFormat = ResultsFormat.FMT_RDF_TURTLE;
 			case "N-Triples" -> resultsFormat = ResultsFormat.FMT_RDF_NT;
 			case "RDF/XML" -> resultsFormat = ResultsFormat.FMT_RDF_XML;
-			case "JSON" -> resultsFormat = ResultsFormat.FMT_RS_JSON;
+			case "JSON-LD" -> resultsFormat = ResultsFormat.FMT_RS_JSON;
 			default -> {
 			}
 		}

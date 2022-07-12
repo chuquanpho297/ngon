@@ -31,6 +31,8 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
             </TextField>
+            <Label fx:id="labelShowDirectory" prefHeight="17.0" prefWidth="177.0" />
+            <Button mnemonicParsing="false" onAction="#chooseDirectoryButton" text="Choose Directory" />
          </children>
          <opaqueInsets>
             <Insets />

@@ -2,6 +2,7 @@ package com.example.oopmain.controller;
 
 import com.example.oopmain.HelloApplication;
 import com.example.oopmain.constant.*;
+import com.example.oopmain.rdf.ILoadHandler;
 import com.example.oopmain.rdf.IQueryHandler;
 import com.example.oopmain.rdf.ISaveHandler;
 import javafx.event.ActionEvent;
@@ -11,19 +12,28 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+import javafx.stage.FileChooser;
+import javafx.stage.FileChooser.ExtensionFilter;
 import javafx.stage.Stage;
 
 //import javax.inject.Inject;
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class ShowController implements Initializable {
 
     private IQueryHandler queryHandler;
     private ISaveHandler saveHandler;
+
+    private ILoadHandler loadHandler;
     @FXML
     private TextArea textAreaOutputQuery;
     @FXML
@@ -32,16 +42,22 @@ public class ShowController implements Initializable {
     private ChoiceBox<String> choiceBoxQueryLinkShow;
     @FXML
     private ChoiceBox<String> choiceBoxTopicsShow;
-
-
+    @FXML
+    private Button buttonChooseFile;
+    @FXML
+    private Label labelShowInfo;
+    @FXML
+    private Label labelShowDirFile;
     private static String format;
     private static String queryLink;
-
+    private List<String> lstFile;
     private static String topic;
+    private static String fileDir;
 
-    public ShowController(IQueryHandler queryHandler, ISaveHandler saveHandler) {
+    public ShowController(IQueryHandler queryHandler, ISaveHandler saveHandler,ILoadHandler loadHandler) {
         this.queryHandler = queryHandler;
         this.saveHandler = saveHandler;
+        this.loadHandler = loadHandler;
     }
 
     public void ChangeQueryButton(ActionEvent event) throws IOException {
@@ -57,13 +73,19 @@ public class ShowController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
+        lstFile = new ArrayList<>();
+        for (String exten : ExtensionConstant.extensionConstant){
+            lstFile.add(exten);
+        }
+
         choiceBoxFormatsShow.getItems().addAll(FormatFileConstant.FORMAT_FILES);
         choiceBoxFormatsShow.setOnAction(this::getFormat);
 
         choiceBoxQueryLinkShow.getItems().addAll(QueryAddsConstant.QUERYADDS);
         choiceBoxQueryLinkShow.setOnAction(e->{
+            labelShowDirFile.setText("");
+            fileDir = null;
             queryLink = choiceBoxQueryLinkShow.getValue();
-            System.out.println(queryLink.length());
             if (queryLink == null) choiceBoxTopicsShow.getItems().addAll(new String[]{""});
             else if (queryLink.equals("Dbpedia")){
 
@@ -75,7 +97,11 @@ public class ShowController implements Initializable {
                 choiceBoxTopicsShow.getItems().addAll(TopicsWikiDataConstant.TOPICS);
             }
         });
-        choiceBoxTopicsShow.setOnAction(this::getTopic);
+        choiceBoxTopicsShow.setOnAction(e->{
+            topic = choiceBoxTopicsShow.getValue();
+            labelShowDirFile.setText("");
+            fileDir = null;
+        });
 
     }
 
@@ -87,9 +113,33 @@ public class ShowController implements Initializable {
     }
 
     public void showFile() {
-        String querySelect = queryHandler.constructQuery(topic);
-        String data = queryHandler.QuerySqarql(querySelect, queryLink, format);
-        if (data != null) textAreaOutputQuery.setText(data);
-        else textAreaOutputQuery.setText("Not found !!");
+        labelShowInfo.setText("");
+        String data = null;
+        if(format!= null){
+            if(topic != null && queryLink != null) {
+                String query = queryHandler.constructQuery(topic);
+                if(fileDir != null) data = queryHandler.QuerySqarqlSelect(query, queryLink, format);
+                else data = queryHandler.QuerySqarqlConstruct(query, queryLink, format);
+            }
+            else if(fileDir != null)
+                data = loadHandler.LoadFile(format,fileDir);
+            if (data != null) {
+                textAreaOutputQuery.setText(data);
+            }
+            else labelShowInfo.setText("Not found !!");
+        }
+        else labelShowInfo.setText("Invalid input !!");
+    }
+    public void chooseFileButton(){
+        topic = queryLink = null;
+
+        FileChooser fc = new FileChooser();
+        fc.getExtensionFilters().add(new ExtensionFilter("RDF Files",lstFile));
+        File f = fc.showOpenDialog(null);
+
+        if(f!=null) {
+            labelShowDirFile.setText(f.getAbsolutePath());
+            fileDir = f.getAbsolutePath();
+        }
     }
 }

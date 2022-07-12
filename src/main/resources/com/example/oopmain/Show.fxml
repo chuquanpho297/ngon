@@ -29,7 +29,7 @@
       <TextArea fx:id="textAreaOutputQuery" prefHeight="338.0" prefWidth="466.0" BorderPane.alignment="CENTER" />
    </center>
    <bottom>
-      <Label alignment="CENTER" prefHeight="17.0" prefWidth="601.0" text="Show information" BorderPane.alignment="CENTER" />
+      <Label fx:id="labelShowInfo" alignment="CENTER" prefHeight="17.0" prefWidth="601.0" BorderPane.alignment="CENTER" />
    </bottom>
    <left>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="5.0" BorderPane.alignment="CENTER">
@@ -50,7 +50,17 @@
                <VBox.margin>
                   <Insets />
                </VBox.margin></ChoiceBox>
-            <Button mnemonicParsing="false" onAction="#showFile" text="Show" />
+            <Label fx:id="labelShowDirFile" prefHeight="17.0" prefWidth="75.0">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#chooseFileButton" text="Choose file">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#showFile" onMouseDragEntered="#enterShowFileButton" text="Show" />
          </children>
          <opaqueInsets>
             <Insets />

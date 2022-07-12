@@ -1,4 +1,4 @@
-package com.example.oopmain.modelquery.people;
+package com.example.oopmain.modelquery.People;
 
 public class Politician extends People {
 

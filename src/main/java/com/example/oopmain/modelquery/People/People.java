@@ -1,4 +1,4 @@
-package com.example.oopmain.modelquery.people;
+package com.example.oopmain.modelquery.People;
 
 
 import com.example.oopmain.modelquery.General;
