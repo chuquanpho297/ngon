@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.Region?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopmain.controller.ShowController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <HBox alignment="CENTER" BorderPane.alignment="CENTER">
          <children>
@@ -34,20 +34,22 @@
    <left>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="5.0" BorderPane.alignment="CENTER">
          <children>
-            <Label prefHeight="17.0" prefWidth="38.0" text="Topic" />
-            <ChoiceBox fx:id="choiceBoxTopics" prefWidth="150.0">
-               <opaqueInsets>
-                  <Insets bottom="10.0" />
-               </opaqueInsets>
-               <VBox.margin>
-                  <Insets bottom="10.0" />
-               </VBox.margin></ChoiceBox>
+            <Label text="Query URL" />
+            <ChoiceBox fx:id="choiceBoxQueryLinkShow" prefWidth="150.0" />
             <Label layoutX="41.0" layoutY="136.0" prefHeight="17.0" prefWidth="47.0" text="Format" />
-            <ChoiceBox fx:id="choiceBoxFormats" layoutX="20.0" layoutY="158.0" prefWidth="150.0">
+            <ChoiceBox fx:id="choiceBoxFormatsShow" layoutX="20.0" layoutY="158.0" prefWidth="150.0">
                <opaqueInsets>
                   <Insets bottom="10.0" />
                </opaqueInsets>
             </ChoiceBox>
+            <Label prefHeight="17.0" prefWidth="38.0" text="Topic" />
+            <ChoiceBox fx:id="choiceBoxTopicsShow" prefWidth="150.0">
+               <opaqueInsets>
+                  <Insets bottom="10.0" />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin></ChoiceBox>
             <Button mnemonicParsing="false" onAction="#showFile" text="Show" />
          </children>
          <opaqueInsets>

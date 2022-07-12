@@ -1,10 +1,13 @@
 package com.example.oopmain.controller;
 
+import javax.inject.Inject;
 import com.example.oopmain.HelloApplication;
 import com.example.oopmain.constant.FormatFileConstant;
-import com.example.oopmain.constant.QueryAddConstant;
-import com.example.oopmain.rdf.RDFHandler;
-import javafx.application.Application;
+import com.example.oopmain.constant.QueryAddsConstant;
+import com.example.oopmain.rdf.IQueryHandler;
+import com.example.oopmain.rdf.ISaveHandler;
+import com.example.oopmain.rdf.impl.QueryHandler;
+import com.example.oopmain.rdf.impl.SaveHandler;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -23,6 +26,9 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class QueryController implements Initializable {
+
+    private IQueryHandler queryHandler;
+    private ISaveHandler saveHandler;
     @FXML
     private TextArea textAreaQuery;
     @FXML
@@ -35,13 +41,18 @@ public class QueryController implements Initializable {
 
     @FXML
     private Label labelQuery;
+    private static String formatFile;
     private static String queryAdd;
 
-    private static String formatFile;
+    public QueryController(IQueryHandler queryHandler, ISaveHandler saveHandler) {
+        this.queryHandler = queryHandler;
+        this.saveHandler = saveHandler;
+    }
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        choiceBoxQuery.getItems().addAll(QueryAddConstant.queryAdds);
-        choiceBoxFormatFile.getItems().addAll(FormatFileConstant.formatFiles);
+        choiceBoxQuery.getItems().addAll(QueryAddsConstant.QUERYADDS);
+        choiceBoxFormatFile.getItems().addAll(FormatFileConstant.FORMAT_FILES);
         choiceBoxQuery.setOnAction(this::getQuery);
         choiceBoxFormatFile.setOnAction(this::getFormatFile);
     }
@@ -56,7 +67,8 @@ public class QueryController implements Initializable {
         String query = textAreaQuery.getText();
         String fileName = textFieldFileName.getText();
         if(queryAdd != null && formatFile != null) {
-                String res = RDFHandler.QueryAndSave(query, fileName, queryAdd, formatFile);
+                String data = queryHandler.QuerySqarql(query,queryAdd,formatFile);
+                String res = saveHandler.SaveFileToDir(data,formatFile,fileName);
                 labelQuery.setText(res);
         }
         else{
@@ -65,9 +77,9 @@ public class QueryController implements Initializable {
     }
     public void ChangeShowButton(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(HelloApplication.class.getResource("Show.fxml"));
+        ShowController showController = new ShowController(new QueryHandler(),new SaveHandler());
+        loader.setController(showController);
         Parent root = loader.load();
-//        ShowController showController = loader.getController();
-//        showController.setTextArea(textAreaQuery.getText());
         Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
         window.setScene(new Scene(root));
     }

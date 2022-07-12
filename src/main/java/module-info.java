@@ -12,6 +12,8 @@ module com.example.oopmain {
     requires com.almasb.fxgl.all;
     requires org.apache.jena.arq;
     requires org.apache.jena.core;
+    requires cdi.api;
+    requires javax.inject;
 
     opens com.example.oopmain to javafx.fxml;
     opens com.example.oopmain.controller to javafx.fxml;

@@ -8,36 +8,36 @@ import org.apache.jena.sparql.resultset.ResultsFormat;
 
 public class QueryUtility {
 	public static void setNsPrefix(ParameterizedSparqlString queryStr) {
-		queryStr.setNsPrefix("wikibase", PrefixConstant.wikibase);
-		queryStr.setNsPrefix("bd", PrefixConstant.bd);
-		queryStr.setNsPrefix("dbp", PrefixConstant.dbp);
-		queryStr.setNsPrefix("rdf", PrefixConstant.rdf);
-		queryStr.setNsPrefix("wd", PrefixConstant.wd);
-		queryStr.setNsPrefix("wdt", PrefixConstant.wdt);
-		queryStr.setNsPrefix("yago", PrefixConstant.yago);
-		queryStr.setNsPrefix("schema", PrefixConstant.schema);
-		queryStr.setNsPrefix("dbo", PrefixConstant.dbo);
-		queryStr.setNsPrefix("xsd", PrefixConstant.xsd);
-		queryStr.setNsPrefix("foaf", PrefixConstant.foaf);
-		queryStr.setNsPrefix("rs", PrefixConstant.rs);
-		queryStr.setNsPrefix("pq",PrefixConstant.pq);
-		queryStr.setNsPrefix("p",PrefixConstant.p);
+		queryStr.setNsPrefix("wikibase", PrefixConstant.WIKIBASE);
+		queryStr.setNsPrefix("bd", PrefixConstant.BD);
+		queryStr.setNsPrefix("dbp", PrefixConstant.DBP);
+		queryStr.setNsPrefix("rdf", PrefixConstant.RDF);
+		queryStr.setNsPrefix("wd", PrefixConstant.WD);
+		queryStr.setNsPrefix("wdt", PrefixConstant.WDT);
+		queryStr.setNsPrefix("yago", PrefixConstant.YAGO);
+		queryStr.setNsPrefix("schema", PrefixConstant.SCHEMA);
+		queryStr.setNsPrefix("dbo", PrefixConstant.DBO);
+		queryStr.setNsPrefix("xsd", PrefixConstant.XSD);
+		queryStr.setNsPrefix("foaf", PrefixConstant.FOAF);
+		queryStr.setNsPrefix("rs", PrefixConstant.RS);
+		queryStr.setNsPrefix("pq",PrefixConstant.PQ);
+		queryStr.setNsPrefix("p",PrefixConstant.P);
 	}
 	public static void setNsPrefix(Model model) {
-		model.setNsPrefix("wikibase", PrefixConstant.wikibase);
-		model.setNsPrefix("bd", PrefixConstant.bd);
-		model.setNsPrefix("dbp", PrefixConstant.dbp);
-		model.setNsPrefix("rdf", PrefixConstant.rdf);
-		model.setNsPrefix("wd", PrefixConstant.wd);
-		model.setNsPrefix("wdt", PrefixConstant.wdt);
-		model.setNsPrefix("yago", PrefixConstant.yago);
-		model.setNsPrefix("schema", PrefixConstant.schema);
-		model.setNsPrefix("dbo", PrefixConstant.dbo);
-		model.setNsPrefix("xsd", PrefixConstant.xsd);
-		model.setNsPrefix("foaf", PrefixConstant.foaf);
-		model.setNsPrefix("rs", PrefixConstant.rs);
-		model.setNsPrefix("pq",PrefixConstant.pq);
-		model.setNsPrefix("ps",PrefixConstant.ps);
+		model.setNsPrefix("wikibase", PrefixConstant.WIKIBASE);
+		model.setNsPrefix("bd", PrefixConstant.BD);
+		model.setNsPrefix("dbp", PrefixConstant.DBP);
+		model.setNsPrefix("rdf", PrefixConstant.RDF);
+		model.setNsPrefix("wd", PrefixConstant.WD);
+		model.setNsPrefix("wdt", PrefixConstant.WDT);
+		model.setNsPrefix("yago", PrefixConstant.YAGO);
+		model.setNsPrefix("schema", PrefixConstant.SCHEMA);
+		model.setNsPrefix("dbo", PrefixConstant.DBO);
+		model.setNsPrefix("xsd", PrefixConstant.XSD);
+		model.setNsPrefix("foaf", PrefixConstant.FOAF);
+		model.setNsPrefix("rs", PrefixConstant.RS);
+		model.setNsPrefix("pq",PrefixConstant.PQ);
+		model.setNsPrefix("p",PrefixConstant.P);
 	}
 
 	public static ResultsFormat checkFormat(String format){
@@ -59,10 +59,10 @@ public class QueryUtility {
 		String sparqlUrl = null;
 		System.out.println(queryAdd.length());
 		if(queryAdd.equals("Wikidata")){
-			sparqlUrl = QueryUrlConstant.wikidataQueryUrl;
+			sparqlUrl = QueryUrlConstant.WIKIDATA_QUERYURL;
 		}
 		if (queryAdd.equals("Dbpedia")){
-			sparqlUrl = QueryUrlConstant.dbpediaQueryUrl;
+			sparqlUrl = QueryUrlConstant.DBPEDIA_QUERYURL;
 		}
 		System.out.println(sparqlUrl);
 		return sparqlUrl;

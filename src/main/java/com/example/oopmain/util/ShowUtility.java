@@ -1,12 +1,8 @@
 package com.example.oopmain.util;
 
-import com.example.oopmain.constant.NameOutputDataConstant;
 import org.apache.jena.riot.Lang;
 
 public class ShowUtility {
-    public static String getFileName(String topic){
-        return NameOutputDataConstant.namesAndTopics.get(topic);
-    }
 
     public static Lang getFormatFile(String format){
         Lang formatFile = null;

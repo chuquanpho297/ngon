@@ -1,0 +1,1121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rs:  <http://www.w3.org/2001/sw/DataAccess/tests/result-set#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[ rdf:type           rs:ResultSet ;
+  rs:resultVariable  "itemLabel" , "item" ;
+  rs:size            "159"^^xsd:int ;
+  rs:solution        [ rs:binding  [ rs:value     "Wilberforce"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q1759652> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Gladstone"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q27190410> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Sanjūrō"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q100451536> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Frank and Louie"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q19880492> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Think Think"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q22774485> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Arcturus Aldebaran Powers"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q52150156> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Maru"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q2634968> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Naro"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q62128317> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Sammy"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q21041964> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Brigadier Broccoli"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q56471556> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Hodge"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q1622688> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Beerbohm"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q57251591> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Tiddles"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q7800822> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Choupette"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q5105465> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Dewey Readmore Books"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q1207136> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Henri"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q5715272> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Room 8"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q7366253> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Bébert"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q21426728> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Buurtpoes Bledder"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q14916910> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Archie"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q65967198> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Curious Zelda"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q106595460> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Winston"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q110265417> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Souris Calle"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q64706109> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Muezza"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q498787> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Mrs. Chippy"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q851190> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Scarlett's Magic"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q7430467> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Willow"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q10393754> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Pepper the Cat"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q17537171> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Catmando"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q1050083> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Pip"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q94990539> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "F. D. C. Willard"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q1386318> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Sockington"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q7553023> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "India"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q2060630> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Willow"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q110727478> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Shironeko"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q8999673> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Munich Mouser"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q15835811> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Gonzo"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q65967196> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Luna the Fashion Kitty"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q6703608> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Freya"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q5503291> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Peter, the Lord's cat"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q7172400> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Tama"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q1201902> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Sybil"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q2624688> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Casper"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q5049074> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Prince Chunk"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q7243868> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Meow"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q6817786> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Unsinkable Sam"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q893453> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Leo"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q27745006> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Fred the Undercover Kitty"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q5496635> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Little Nicky"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q6651160> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Mike"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q6845813> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Toffee"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q49581026> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Hamish McHamish"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q15991501> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Corduroy"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q21002390> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Tuna"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q105330885> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Socks"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q1371145> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Longcat"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q58310774> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Matroska"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q21641529> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Nelson"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q15836515> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Smudge"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q108391847> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Marble"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q27745011> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Winnie"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q2300851> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Abatutu"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q79407468> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Tiffany Two"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q20080934> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Sister Cream"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q27739753> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Tara"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q17115877> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Creme Puff"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q2597104> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Seri"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q27745009> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Scooter"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q24084366> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Nutmeg"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q50378472> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Miolek"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q101948600> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Stubbs"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q7627362> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Poppy"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q17000472> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Simon"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q2098929> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Sam the Cat has Eyebrows"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q58311218> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Peter III"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q15840080> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Ketzel"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q17576799> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Trick"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q60213636> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "FamousNiki"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q19906739> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Spangles"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q16985214> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Smudge"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q16950243> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Tibs the Great"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q24298806> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Peter II"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q51827254> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Meredith Grey"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q94098815> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Rubble"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q55632071> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Paddles"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q43260736> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Mr. Nuts"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q6928344> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Fatso the Cat"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q63928240> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Reggie"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q65967183> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Pixel"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q25471040> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Grumpy Cat"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q7714263> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Emily"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q11290753> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Towser"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q1750907> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Freddy"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q21652863> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Lóu lóu"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q58621231> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Gli"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q28792126> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Merlin"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q21050077> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Peta"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q15840011> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Şero"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q61133276> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Ebisu"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q99826810> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Mochimaru"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q108442825> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Kiisu Miisu"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q42442324> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Order"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q106938943> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Musashi"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q27745002> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Blackie"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q57623398> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Hana"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q18945952> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Order"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q112224255> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Mostik"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q54257563> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Mr. Green Genes"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q2909987> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Félicette"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q12165555> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Hamilton"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q48895080> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Apelmon"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q76974430> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Olivia Benson"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q94100602> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "the cat from Borodianka"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q112152493> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Misuke"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q11279521> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Palmerston"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q25171691> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Panther"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q10344245> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Noutti"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q101943970> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Peter"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q51841231> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Nora"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q1413628> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Remy"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q65769811> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Nala"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q28114532> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Tsim Tung Brother Cream"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q10813994> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Dusty the Klepto Kitty"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q5317221> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Colonel Meow"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q16605098> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Dorofei"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q16835794> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Lorenzo the cat"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q17115860> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Crimean Tom"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q51596094> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Rizzo"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q65967200> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Nora"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q11291938> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Nitama"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q53216650> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Myōbu no otodo"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q100965010> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Scarlett"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q4421603> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Ah Tsai"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q24705153> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Embassy Cat"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q63094726> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Lil Bub"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q14832020> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Zipper"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q94993819> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Mittens"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q66737405> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Filuś"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q19850466> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Humphrey"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q1637234> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Liv"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q50824969> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Kotora"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q11302267> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Rusik"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q7380911> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Luca"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q27745008> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Tomba"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q25393350> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Venus"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q65091914> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Oscar"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q7105840> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Punkin"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q18535182> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Mac the cat sat in a box"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q110752157> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Jorts"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q110565455> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Takeshi"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q109316363> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Garfi"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q56427306> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Orangey"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q677525> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Tigrette"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q101947824> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Bob"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q27744042> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Foss"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q54087698> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Treasury Bill"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q15851429> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Doorkins"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q106828517> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "CC"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q378619> ;
+                                     rs:variable  "item"
+                                   ]
+                     ] ;
+  rs:solution        [ rs:binding  [ rs:value     "Myka"@en ;
+                                     rs:variable  "itemLabel"
+                                   ] ;
+                       rs:binding  [ rs:value     <http://www.wikidata.org/entity/Q28665865> ;
+                                     rs:variable  "item"
+                                   ]
+                     ]
+] .
