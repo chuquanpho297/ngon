@@ -60,21 +60,22 @@ public class QueryController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         choiceBoxQuery.getItems().addAll(QueryAddsConstant.QUERYADDS);
-        choiceBoxQuery.setOnAction(this::getQuery);
+        choiceBoxQuery.setOnAction(e->{
+            queryAdd = choiceBoxQuery.getValue();
+            labelQuery.setText("");
+            textAreaQuery.setText("");
+        });
 
         choiceBoxFormatFile.getItems().addAll(FormatFileConstant.FORMAT_FILES);
-        choiceBoxFormatFile.setOnAction(this::getFormatFile);
+        choiceBoxFormatFile.setOnAction(e->{
+            formatFile = choiceBoxFormatFile.getValue();
+            labelQuery.setText("");
+            textAreaQuery.setText("");
+        });
 
         directoryChooser = new DirectoryChooser();
         directoryChooser.setTitle("Select Directories");
         directoryChooser.setInitialDirectory(null);
-    }
-    private void getQuery(ActionEvent event){
-        queryAdd = choiceBoxQuery.getValue();
-
-    }
-    private void getFormatFile(ActionEvent event){
-        formatFile = choiceBoxFormatFile.getValue();
     }
     public void SubmitQuery(ActionEvent actionEvent){
         labelQuery.setText("");

@@ -79,10 +79,16 @@ public class ShowController implements Initializable {
         }
 
         choiceBoxFormatsShow.getItems().addAll(FormatFileConstant.FORMAT_FILES);
-        choiceBoxFormatsShow.setOnAction(this::getFormat);
+        choiceBoxFormatsShow.setOnAction(e->{
+            textAreaOutputQuery.setText("");
+            labelShowInfo.setText("");
+            format = choiceBoxFormatsShow.getValue();
+        });
 
         choiceBoxQueryLinkShow.getItems().addAll(QueryAddsConstant.QUERYADDS);
         choiceBoxQueryLinkShow.setOnAction(e->{
+            textAreaOutputQuery.setText("");
+            labelShowInfo.setText("");
             labelShowDirFile.setText("");
             fileDir = null;
             queryLink = choiceBoxQueryLinkShow.getValue();
@@ -98,19 +104,15 @@ public class ShowController implements Initializable {
             }
         });
         choiceBoxTopicsShow.setOnAction(e->{
+            textAreaOutputQuery.setText("");
             topic = choiceBoxTopicsShow.getValue();
             labelShowDirFile.setText("");
+            labelShowInfo.setText("");
             fileDir = null;
         });
 
     }
 
-    private void getFormat(ActionEvent event) {
-        format = choiceBoxFormatsShow.getValue();
-    }
-    private void getTopic(ActionEvent event) {
-        topic = choiceBoxTopicsShow.getValue();
-    }
 
     public void showFile() {
         labelShowInfo.setText("");
@@ -125,12 +127,17 @@ public class ShowController implements Initializable {
                 data = loadHandler.LoadFile(format,fileDir);
             if (data != null) {
                 textAreaOutputQuery.setText(data);
+                labelShowInfo.setText("Done !!");
             }
-            else labelShowInfo.setText("Not found !!");
+            else {
+                if(topic == null || queryLink == null) labelShowInfo.setText("Invalid input !!");
+                else labelShowInfo.setText("Not found !!");
+            }
         }
         else labelShowInfo.setText("Invalid input !!");
     }
     public void chooseFileButton(){
+        textAreaOutputQuery.setText("");
         topic = queryLink = null;
 
         FileChooser fc = new FileChooser();
